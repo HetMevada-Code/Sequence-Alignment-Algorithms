@@ -1,4 +1,4 @@
-# Smith-Waterman Local alignment
+# Smith-Waterman: Local Sequence alignment
 s1 = "ATGC"
 s2 = "ATG"
 m = 2
