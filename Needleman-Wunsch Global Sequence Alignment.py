@@ -1,6 +1,9 @@
 # Needleman-Wunsch: Global Sequence Alignment
-s1, s2 = "ATGC", "ATG"
-m, mm, g = 2, -1, -1
+s1 = "ATGC"
+s2 = "ATG"
+m = 2
+mm = -1
+g = -1
 
 # Create score and arrow matrices
 dp = [[0]*(len(s2)+1) for _ in range(len(s1)+1)]
